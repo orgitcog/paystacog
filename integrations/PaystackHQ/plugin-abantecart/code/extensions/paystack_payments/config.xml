@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<extension>
+    <id>paystack_payments</id>
+    <version>1.2.1</version>
+    <type>payment</type>
+    <category>payment</category>
+    <cartversions>
+        <item>1.3</item>
+    </cartversions>
+    <layout></layout>
+    <priority>10</priority>
+    <settings>
+        <item id="paystack_sandbox">
+            <type>selectbox</type>
+            <variants>
+                <item>test</item>
+                <item>live</item>
+
+            </variants>
+        </item>
+        <item id="paystack_tsk">
+            <type>input</type>
+        </item>
+        <item id="paystack_tpk">
+            <type>input</type>
+        </item>
+        <item id="paystack_lsk">
+            <type>input</type>
+        </item>
+        <item id="paystack_lpk">
+            <type>input</type>
+        </item>
+        <item id="paystack_order_status_id">
+            <type>selectbox</type>
+            <variants>
+                <item>1</item>
+                <item>2</item>
+                <item>5</item>
+            </variants>
+            <default_value>2</default_value>
+        </item>
+    </settings>
+    <note>true</note>
+</extension>

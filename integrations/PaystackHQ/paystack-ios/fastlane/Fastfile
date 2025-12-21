@@ -1,0 +1,60 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :custom_lane do
+    # add actions here: https://docs.fastlane.tools/actions
+  end
+
+desc "Run unit tests"
+  lane :unit_tests do
+    clear_derived_data
+    scan(scheme: "PaystackiOS Tests",
+	derived_data_path: "temp",
+      	clean: true
+      )
+  end
+  
+desc "Sonar Cloud Scanner"
+  lane :metrics do
+
+    scan(scheme: "PaystackiOS Tests",
+      code_coverage: true,
+      output_directory: "./sonar-reports",
+      devices: "iPhone 8")
+     
+    slather(sonarqube_xml: true,
+      scheme: "PaystackiOS",
+      proj: "./Paystack.xcodeproj",
+      output_directory: "./code-coverage",
+      workspace: "./Paystack.xcworkspace")
+      
+     swiftlint(output_file: "./sonar-reports/swiftlint.txt",
+      ignore_exit_status: true)
+     
+     sonar(
+      project_key: "PaystackHQ_paystack-ios",
+      project_version: "1.0",
+      project_name: "PaystackiOS",
+      sources_path: File.expand_path("../Paystack"),
+      sonar_organization: "paystackhq",
+      sonar_login: ENV["SONAR_TOKEN"],
+      sonar_url: "https://sonarcloud.io"
+    )
+    end
+end

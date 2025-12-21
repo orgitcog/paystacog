@@ -1,0 +1,2869 @@
+{
+  "total_repos": 77,
+  "by_source": {
+    "PaystackHQ": 35,
+    "PaystackOSS": 42
+  },
+  "by_type": {
+    "sdk": 6,
+    "plugin": 28,
+    "unknown": 13,
+    "library": 1,
+    "documentation": 2,
+    "api": 3,
+    "checkout": 3,
+    "cli": 1,
+    "sample": 20
+  },
+  "by_language": {
+    "Kotlin": 7,
+    "Java": 7,
+    "Objective-C": 4,
+    "Swift": 8,
+    "Ruby": 2,
+    "PHP": 29,
+    "JavaScript": 33,
+    "Vue": 6,
+    "Python": 2,
+    "TypeScript": 3,
+    "Dart": 3
+  },
+  "categories": {
+    "sdks": {
+      "mobile": [
+        {
+          "name": "paystack-android",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android",
+          "languages": [
+            "Kotlin",
+            "Java"
+          ],
+          "type": "sdk",
+          "features": [
+            "payment-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/Gemfile",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/example/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/paystack/build.gradle"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "paystack-ios",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios",
+          "languages": [
+            "Objective-C",
+            "Swift",
+            "Ruby"
+          ],
+          "type": "sdk",
+          "features": [
+            "payment-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios/Gemfile",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios/Tests/installation_tests/cocoapods/with_frameworks/Podfile",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios/Tests/installation_tests/cocoapods/without_frameworks/Podfile"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "checkout-ios",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-ios",
+          "languages": [
+            "Objective-C",
+            "Swift"
+          ],
+          "type": "checkout",
+          "features": [
+            "checkout-ui"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-ios/Gemfile",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-ios/Example/Podfile"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "checkout-android",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-android",
+          "languages": [
+            "Kotlin",
+            "Java"
+          ],
+          "type": "checkout",
+          "features": [
+            "checkout-ui"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-android/javaexample/build.gradle"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "paystack-sdk-ios",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-sdk-ios",
+          "languages": [
+            "Swift"
+          ],
+          "type": "sdk",
+          "features": [
+            "payment-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-sdk-ios/Gemfile",
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-sdk-ios/Example/Podfile"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "FoodCheckout",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/FoodCheckout",
+          "languages": [
+            "Java"
+          ],
+          "type": "checkout",
+          "features": [
+            "checkout-ui"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/FoodCheckout/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/FoodCheckout/app/build.gradle"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "paystack_flutter",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter",
+          "languages": [
+            "Swift",
+            "Dart",
+            "Kotlin"
+          ],
+          "type": "sdk",
+          "features": [
+            "payment-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/pubspec.yaml",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/android/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/pubspec.yaml",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/android/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/android/app/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/ios/Podfile"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "backend": [
+        {
+          "name": "paystack-python",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-python",
+          "languages": [
+            "Python"
+          ],
+          "type": "sdk",
+          "features": [
+            "payment-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-python/requirements.txt",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-python/setup.py"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "frontend": [
+        {
+          "name": "paystack-node",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-node",
+          "languages": [
+            "TypeScript"
+          ],
+          "type": "sdk",
+          "features": [
+            "payment-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-node/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ]
+    },
+    "plugins": {
+      "ecommerce": [
+        {
+          "name": "plugin-magento",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-magento",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "magento-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-whmcs",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-whmcs",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "wordpress-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-whmcs/composer.json"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-magento-2",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-magento-2",
+          "languages": [
+            "PHP",
+            "JavaScript"
+          ],
+          "type": "plugin",
+          "features": [
+            "magento-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-magento-2/composer.json"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-prestashop-1.6",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-prestashop-1.6",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "prestashop-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-abantecart",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-abantecart",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-cs-cart",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-cs-cart",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-boxbilling",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-boxbilling",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-engine-themes-directory-engine-freelance-engine",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-engine-themes-directory-engine-freelance-engine",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-prestashop-1.7",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-prestashop-1.7",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "prestashop-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-wordpress-premiumpress",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-wordpress-premiumpress",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "wordpress-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-os-class",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-os-class",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-spc",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-spc",
+          "languages": [
+            "PHP",
+            "JavaScript"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-enginethemes-freelanceengine1.7-1.8",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-enginethemes-freelanceengine1.7-1.8",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": false,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-opencart-3.x",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-opencart-3.x",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "opencart-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-learnpress",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-learnpress",
+          "languages": [],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-paystack-resellerclub",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-paystack-resellerclub",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-odoo",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-odoo",
+          "languages": [
+            "JavaScript",
+            "Python"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-payment-forms-for-wordpress",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-payment-forms-for-wordpress",
+          "languages": [
+            "PHP",
+            "JavaScript"
+          ],
+          "type": "plugin",
+          "features": [
+            "wordpress-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-payment-forms-for-wordpress/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "plugin-wpjobster",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-wpjobster",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "plugin-sprout-invoices",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-sprout-invoices",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "Bubble-Plugin-Paystack",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/Bubble-Plugin-Paystack",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "plugin-the-events-calendar",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-the-events-calendar",
+          "languages": [
+            "PHP",
+            "JavaScript"
+          ],
+          "type": "plugin",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-the-events-calendar/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "cms": [
+        {
+          "name": "plugin-icejoomla",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-icejoomla",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "joomla-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-joomla-virtuemart-3",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-joomla-virtuemart-3",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "joomla-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "plugin-joomla-breezing-commerce-paystack-gateway",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-joomla-breezing-commerce-paystack-gateway",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "joomla-integration"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackHQ"
+        }
+      ],
+      "lms": [],
+      "membership": [
+        {
+          "name": "plugin-paid-membership-pro",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-paid-membership-pro",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "membership-management"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "plugin-memberpress",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-memberpress",
+          "languages": [
+            "PHP",
+            "JavaScript"
+          ],
+          "type": "plugin",
+          "features": [
+            "membership-management"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "plugin-gravity-forms",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-gravity-forms",
+          "languages": [
+            "PHP"
+          ],
+          "type": "plugin",
+          "features": [
+            "gravity-forms"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        }
+      ]
+    },
+    "samples": {
+      "web": [
+        {
+          "name": "sample-gift-store",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store",
+          "languages": [
+            "Vue",
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-vue",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-vue",
+          "languages": [
+            "Vue",
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-vue/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-kix",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-kix",
+          "languages": [
+            "Vue",
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-kix/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-react",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-react",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-react/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-restaurant",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-restaurant",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-restaurant/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-logistics",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-logistics",
+          "languages": [
+            "Vue",
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-logistics/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-gift-store-api",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store-api",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store-api/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-subscriptions-app",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscriptions-app",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscriptions-app/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-redirect",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-redirect",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-redirect/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "mobile": [
+        {
+          "name": "sample-movie-ticket",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-movie-ticket",
+          "languages": [
+            "Java"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-movie-ticket/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-movie-ticket/app/build.gradle"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-android-webview",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-android-webview",
+          "languages": [
+            "Kotlin"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-android-webview/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-android-webview/app/build.gradle"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-shoes-android",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-shoes-android",
+          "languages": [
+            "Kotlin"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-emoji",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-emoji",
+          "languages": [
+            "Swift"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-registration-flutter",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter",
+          "languages": [
+            "Dart",
+            "Swift",
+            "Kotlin"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/pubspec.yaml",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/android/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/android/app/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/ios/Podfile",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/macos/Podfile"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-registration-react-native",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native",
+          "languages": [
+            "Objective-C",
+            "JavaScript",
+            "Java"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/Gemfile",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/android/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/android/app/build.gradle",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/ios/Podfile"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "backend": [
+        {
+          "name": "sample-backend",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-backend",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-backend/node/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-wallet-app",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-wallet-app",
+          "languages": [],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-node",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-node",
+          "languages": [],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-express-backend",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-express-backend",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-express-backend/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "sample-subscription-backend",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscription-backend",
+          "languages": [
+            "TypeScript"
+          ],
+          "type": "sample",
+          "features": [
+            "reference-implementation"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscription-backend/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ]
+    },
+    "tools": {
+      "cli": [
+        {
+          "name": "paystack-cli",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-cli",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "cli",
+          "features": [
+            "command-line-interface"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": false,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-cli/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "api": [
+        {
+          "name": "paystack-music-api",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-music-api",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "api",
+          "features": [
+            "api-specification"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-music-api/package.json"
+          ],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "openapi",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/openapi",
+          "languages": [
+            "JavaScript"
+          ],
+          "type": "api",
+          "features": [
+            "api-specification"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/openapi/package.json"
+          ],
+          "source": "PaystackOSS"
+        },
+        {
+          "name": "tees-store-api",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api",
+          "languages": [
+            "TypeScript",
+            "JavaScript"
+          ],
+          "type": "api",
+          "features": [
+            "api-specification"
+          ],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/@sindresorhus/is/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/@szmarczak/http-timer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/abbrev/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/accepts/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ansi-align/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ansi-regex/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ansi-styles/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/anymatch/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/array-flatten/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/axios/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/balanced-match/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/bignumber.js/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/binary-extensions/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/body-parser/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/boxen/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/brace-expansion/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/braces/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/bytes/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cacheable-request/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cacheable-request/node_modules/get-stream/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cacheable-request/node_modules/lowercase-keys/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/camelcase/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/chalk/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/chokidar/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/chokidar/node_modules/glob-parent/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ci-info/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cli-boxes/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/clone-response/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/color-convert/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/color-name/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/concat-map/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/configstore/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/content-disposition/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/content-type/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cookie-signature/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cookie/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/core-util-is/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cors/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/crypto-random-string/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/debug/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/decompress-response/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/deep-extend/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/defer-to-connect/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/depd/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/destroy/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/dot-prop/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/dotenv/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/duplexer3/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ee-first/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/emoji-regex/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/encodeurl/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/end-of-stream/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/escape-goat/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/escape-html/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/etag/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/express-validator/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/express/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/fill-range/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/finalhandler/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/follow-redirects/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/forwarded/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/fresh/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/fsevents/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/get-stream/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/global-dirs/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/got/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/graceful-fs/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/has-flag/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/has-yarn/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/http-cache-semantics/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/http-errors/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/iconv-lite/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ignore-by-default/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/import-lazy/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/imurmurhash/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/inherits/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ini/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ipaddr.js/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-binary-path/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-ci/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-extglob/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-fullwidth-code-point/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-glob/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-installed-globally/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-npm/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-number/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-obj/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-path-inside/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-typedarray/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-yarn-global/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/isarray/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/json-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/keyv/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/latest-version/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/lodash/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/lowercase-keys/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/lru-cache/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/make-dir/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/make-dir/node_modules/semver/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/media-typer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/merge-descriptors/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/methods/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mime-db/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mime-types/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mime/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mimic-response/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/minimatch/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/minimist/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ms/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mysql/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mysql/node_modules/safe-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/negotiator/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/debug/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/has-flag/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/ms/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/supports-color/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nopt/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/normalize-path/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/normalize-url/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/object-assign/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/on-finished/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/once/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/p-cancelable/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/package-json/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/package-json/node_modules/semver/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/parseurl/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/path-to-regexp/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/picomatch/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/prepend-http/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/process-nextick-args/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/proxy-addr/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/pstree.remy/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/pump/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/pupa/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/qs/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/range-parser/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/raw-body/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/rc/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/rc/node_modules/ini/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/rc/node_modules/strip-json-comments/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/readable-stream/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/readable-stream/node_modules/safe-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/readdirp/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/registry-auth-token/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/registry-url/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/responselike/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/safe-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/safer-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/sanitize/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/sanitize/node_modules/validator/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/semver-diff/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/semver-diff/node_modules/semver/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/semver/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/send/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/send/node_modules/ms/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/serve-static/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/setprototypeof/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/signal-exit/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/sqlstring/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/statuses/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/string-width/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/string_decoder/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/string_decoder/node_modules/safe-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/strip-ansi/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/supports-color/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/to-readable-stream/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/to-regex-range/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/toidentifier/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/touch/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/type-fest/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/type-is/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/typedarray-to-buffer/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/undefsafe/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/unique-string/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/unpipe/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/update-notifier/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/update-notifier/node_modules/semver/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/url-parse-lax/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/util-deprecate/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/utils-merge/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/validator/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/vary/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/widest-line/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/wrap-ansi/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/wrappy/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/write-file-atomic/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/xdg-basedir/package.json",
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/yallist/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ],
+      "documentation": [
+        {
+          "name": "documentation",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/documentation",
+          "languages": [],
+          "type": "documentation",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [],
+          "source": "PaystackHQ"
+        },
+        {
+          "name": "doc-code-snippets",
+          "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/doc-code-snippets",
+          "languages": [
+            "PHP",
+            "Dart",
+            "JavaScript",
+            "Swift",
+            "Java",
+            "Kotlin"
+          ],
+          "type": "documentation",
+          "features": [],
+          "dependencies": [],
+          "has_readme": true,
+          "has_tests": true,
+          "files": [
+            "/home/ubuntu/paystacog/integrations/PaystackOSS/doc-code-snippets/package.json"
+          ],
+          "source": "PaystackOSS"
+        }
+      ]
+    },
+    "libraries": [
+      {
+        "name": "library-android-pinpad",
+        "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad",
+        "languages": [
+          "Java"
+        ],
+        "type": "library",
+        "features": [],
+        "dependencies": [],
+        "has_readme": true,
+        "has_tests": true,
+        "files": [
+          "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/Gemfile",
+          "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/build.gradle",
+          "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/demo/build.gradle",
+          "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/pinpad/build.gradle"
+        ],
+        "source": "PaystackHQ"
+      }
+    ]
+  },
+  "all_repos": [
+    {
+      "name": "paystack-android",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android",
+      "languages": [
+        "Kotlin",
+        "Java"
+      ],
+      "type": "sdk",
+      "features": [
+        "payment-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/example/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-android/paystack/build.gradle"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "paystack-ios",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios",
+      "languages": [
+        "Objective-C",
+        "Swift",
+        "Ruby"
+      ],
+      "type": "sdk",
+      "features": [
+        "payment-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios/Tests/installation_tests/cocoapods/with_frameworks/Podfile",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-ios/Tests/installation_tests/cocoapods/without_frameworks/Podfile"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-magento",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-magento",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "magento-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-icejoomla",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-icejoomla",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "joomla-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-whmcs",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-whmcs",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "wordpress-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-whmcs/composer.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-magento-2",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-magento-2",
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "type": "plugin",
+      "features": [
+        "magento-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-magento-2/composer.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-prestashop-1.6",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-prestashop-1.6",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "prestashop-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-abantecart",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-abantecart",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-joomla-virtuemart-3",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-joomla-virtuemart-3",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "joomla-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-cs-cart",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-cs-cart",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "website-v1",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/website-v1",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/website-v1/package.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-boxbilling",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-boxbilling",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "library-android-pinpad",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad",
+      "languages": [
+        "Java"
+      ],
+      "type": "library",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/demo/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/library-android-pinpad/pinpad/build.gradle"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-engine-themes-directory-engine-freelance-engine",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-engine-themes-directory-engine-freelance-engine",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-prestashop-1.7",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-prestashop-1.7",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "prestashop-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-wordpress-premiumpress",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-wordpress-premiumpress",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "wordpress-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-os-class",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-os-class",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-spc",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-spc",
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-joomla-breezing-commerce-paystack-gateway",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-joomla-breezing-commerce-paystack-gateway",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "joomla-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-enginethemes-freelanceengine1.7-1.8",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-enginethemes-freelanceengine1.7-1.8",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": false,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-opencart-3.x",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-opencart-3.x",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "opencart-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "documentation",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/documentation",
+      "languages": [],
+      "type": "documentation",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-learnpress",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-learnpress",
+      "languages": [],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "reimbursement-app",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/reimbursement-app",
+      "languages": [
+        "Vue",
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/reimbursement-app/package.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "nigerialogos",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/nigerialogos",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/nigerialogos/package.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-paystack-resellerclub",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-paystack-resellerclub",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "omnipay-paystack",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/omnipay-paystack",
+      "languages": [
+        "PHP"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/omnipay-paystack/composer.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "paystack-music-api",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-music-api",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "api",
+      "features": [
+        "api-specification"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-music-api/package.json"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "checkout-ios",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-ios",
+      "languages": [
+        "Objective-C",
+        "Swift"
+      ],
+      "type": "checkout",
+      "features": [
+        "checkout-ui"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-ios/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-ios/Example/Podfile"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "checkout-android",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-android",
+      "languages": [
+        "Kotlin",
+        "Java"
+      ],
+      "type": "checkout",
+      "features": [
+        "checkout-ui"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/checkout-android/javaexample/build.gradle"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "moodle-enrol_paystack",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/moodle-enrol_paystack",
+      "languages": [
+        "PHP"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "publish-mavencentral",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/publish-mavencentral",
+      "languages": [],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "paystack-sdk-ios",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-sdk-ios",
+      "languages": [
+        "Swift"
+      ],
+      "type": "sdk",
+      "features": [
+        "payment-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-sdk-ios/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/paystack-sdk-ios/Example/Podfile"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-odoo",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/plugin-odoo",
+      "languages": [
+        "JavaScript",
+        "Python"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "Marketplace-iOS",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackHQ/Marketplace-iOS",
+      "languages": [
+        "Objective-C",
+        "Swift"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackHQ/Marketplace-iOS/Podfile"
+      ],
+      "source": "PaystackHQ"
+    },
+    {
+      "name": "plugin-payment-forms-for-wordpress",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-payment-forms-for-wordpress",
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "type": "plugin",
+      "features": [
+        "wordpress-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-payment-forms-for-wordpress/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "plugin-wpjobster",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-wpjobster",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "plugin-paid-membership-pro",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-paid-membership-pro",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "membership-management"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "plugin-sprout-invoices",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-sprout-invoices",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "plugin-memberpress",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-memberpress",
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "type": "plugin",
+      "features": [
+        "membership-management"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "paystack-cli",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-cli",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "cli",
+      "features": [
+        "command-line-interface"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-cli/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-gift-store",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store",
+      "languages": [
+        "Vue",
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-movie-ticket",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-movie-ticket",
+      "languages": [
+        "Java"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-movie-ticket/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-movie-ticket/app/build.gradle"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-backend",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-backend",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-backend/node/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-vue",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-vue",
+      "languages": [
+        "Vue",
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-vue/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-kix",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-kix",
+      "languages": [
+        "Vue",
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-kix/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "pay-lender",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/pay-lender",
+      "languages": [
+        "Ruby",
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/pay-lender/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/pay-lender/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-react",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-react",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-react/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "plugin-gravity-forms",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-gravity-forms",
+      "languages": [
+        "PHP"
+      ],
+      "type": "plugin",
+      "features": [
+        "gravity-forms"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "FoodCheckout",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/FoodCheckout",
+      "languages": [
+        "Java"
+      ],
+      "type": "checkout",
+      "features": [
+        "checkout-ui"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/FoodCheckout/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/FoodCheckout/app/build.gradle"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-restaurant",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-restaurant",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-restaurant/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-logistics",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-logistics",
+      "languages": [
+        "Vue",
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-logistics/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "openapi",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/openapi",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "api",
+      "features": [
+        "api-specification"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/openapi/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "paystack-node",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-node",
+      "languages": [
+        "TypeScript"
+      ],
+      "type": "sdk",
+      "features": [
+        "payment-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-node/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "paystack-python",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-python",
+      "languages": [
+        "Python"
+      ],
+      "type": "sdk",
+      "features": [
+        "payment-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-python/requirements.txt",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-python/setup.py"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "tees-store",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store",
+      "languages": [
+        "Vue",
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "tees-store-api",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api",
+      "languages": [
+        "TypeScript",
+        "JavaScript"
+      ],
+      "type": "api",
+      "features": [
+        "api-specification"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/@sindresorhus/is/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/@szmarczak/http-timer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/abbrev/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/accepts/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ansi-align/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ansi-regex/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ansi-styles/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/anymatch/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/array-flatten/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/axios/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/balanced-match/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/bignumber.js/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/binary-extensions/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/body-parser/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/boxen/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/brace-expansion/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/braces/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/bytes/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cacheable-request/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cacheable-request/node_modules/get-stream/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cacheable-request/node_modules/lowercase-keys/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/camelcase/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/chalk/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/chokidar/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/chokidar/node_modules/glob-parent/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ci-info/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cli-boxes/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/clone-response/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/color-convert/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/color-name/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/concat-map/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/configstore/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/content-disposition/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/content-type/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cookie-signature/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cookie/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/core-util-is/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/cors/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/crypto-random-string/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/debug/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/decompress-response/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/deep-extend/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/defer-to-connect/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/depd/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/destroy/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/dot-prop/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/dotenv/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/duplexer3/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ee-first/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/emoji-regex/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/encodeurl/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/end-of-stream/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/escape-goat/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/escape-html/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/etag/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/express-validator/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/express/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/fill-range/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/finalhandler/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/follow-redirects/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/forwarded/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/fresh/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/fsevents/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/get-stream/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/global-dirs/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/got/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/graceful-fs/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/has-flag/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/has-yarn/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/http-cache-semantics/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/http-errors/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/iconv-lite/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ignore-by-default/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/import-lazy/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/imurmurhash/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/inherits/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ini/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ipaddr.js/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-binary-path/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-ci/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-extglob/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-fullwidth-code-point/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-glob/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-installed-globally/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-npm/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-number/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-obj/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-path-inside/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-typedarray/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/is-yarn-global/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/isarray/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/json-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/keyv/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/latest-version/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/lodash/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/lowercase-keys/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/lru-cache/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/make-dir/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/make-dir/node_modules/semver/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/media-typer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/merge-descriptors/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/methods/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mime-db/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mime-types/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mime/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mimic-response/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/minimatch/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/minimist/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/ms/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mysql/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/mysql/node_modules/safe-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/negotiator/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/debug/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/has-flag/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/ms/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nodemon/node_modules/supports-color/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/nopt/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/normalize-path/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/normalize-url/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/object-assign/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/on-finished/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/once/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/p-cancelable/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/package-json/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/package-json/node_modules/semver/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/parseurl/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/path-to-regexp/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/picomatch/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/prepend-http/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/process-nextick-args/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/proxy-addr/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/pstree.remy/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/pump/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/pupa/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/qs/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/range-parser/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/raw-body/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/rc/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/rc/node_modules/ini/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/rc/node_modules/strip-json-comments/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/readable-stream/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/readable-stream/node_modules/safe-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/readdirp/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/registry-auth-token/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/registry-url/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/responselike/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/safe-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/safer-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/sanitize/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/sanitize/node_modules/validator/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/semver-diff/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/semver-diff/node_modules/semver/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/semver/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/send/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/send/node_modules/ms/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/serve-static/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/setprototypeof/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/signal-exit/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/sqlstring/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/statuses/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/string-width/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/string_decoder/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/string_decoder/node_modules/safe-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/strip-ansi/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/supports-color/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/to-readable-stream/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/to-regex-range/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/toidentifier/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/touch/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/type-fest/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/type-is/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/typedarray-to-buffer/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/undefsafe/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/unique-string/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/unpipe/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/update-notifier/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/update-notifier/node_modules/semver/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/url-parse-lax/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/util-deprecate/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/utils-merge/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/validator/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/vary/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/widest-line/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/wrap-ansi/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/wrappy/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/write-file-atomic/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/xdg-basedir/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/tees-store-api/node_modules/yallist/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-gift-store-api",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store-api",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-gift-store-api/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-android-webview",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-android-webview",
+      "languages": [
+        "Kotlin"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-android-webview/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-android-webview/app/build.gradle"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-subscriptions-app",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscriptions-app",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscriptions-app/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "Bubble-Plugin-Paystack",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/Bubble-Plugin-Paystack",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-wallet-app",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-wallet-app",
+      "languages": [],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "plugin-the-events-calendar",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-the-events-calendar",
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "type": "plugin",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/plugin-the-events-calendar/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "custom-forms-php",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/custom-forms-php",
+      "languages": [
+        "PHP",
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/custom-forms-php/composer.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/custom-forms-php/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-redirect",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-redirect",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-redirect/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "doc-code-snippets",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/doc-code-snippets",
+      "languages": [
+        "PHP",
+        "Dart",
+        "JavaScript",
+        "Swift",
+        "Java",
+        "Kotlin"
+      ],
+      "type": "documentation",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/doc-code-snippets/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-node",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-node",
+      "languages": [],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-shoes-android",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-shoes-android",
+      "languages": [
+        "Kotlin"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-emoji",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-emoji",
+      "languages": [
+        "Swift"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-registration-flutter",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter",
+      "languages": [
+        "Dart",
+        "Swift",
+        "Kotlin"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/pubspec.yaml",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/android/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/android/app/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/ios/Podfile",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-flutter/macos/Podfile"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-registration-react-native",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native",
+      "languages": [
+        "Objective-C",
+        "JavaScript",
+        "Java"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/Gemfile",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/package.json",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/android/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/android/app/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-registration-react-native/ios/Podfile"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "apple-pay-react",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/apple-pay-react",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/apple-pay-react/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "apple-pay-demo",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/apple-pay-demo",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/apple-pay-demo/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-express-backend",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-express-backend",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-express-backend/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "paystack_flutter",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter",
+      "languages": [
+        "Swift",
+        "Dart",
+        "Kotlin"
+      ],
+      "type": "sdk",
+      "features": [
+        "payment-integration"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": true,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/pubspec.yaml",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/android/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/pubspec.yaml",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/android/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/android/app/build.gradle",
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack_flutter/example/ios/Podfile"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "paystack-transaction-server",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-transaction-server",
+      "languages": [
+        "JavaScript"
+      ],
+      "type": "unknown",
+      "features": [],
+      "dependencies": [],
+      "has_readme": false,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/paystack-transaction-server/package.json"
+      ],
+      "source": "PaystackOSS"
+    },
+    {
+      "name": "sample-subscription-backend",
+      "path": "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscription-backend",
+      "languages": [
+        "TypeScript"
+      ],
+      "type": "sample",
+      "features": [
+        "reference-implementation"
+      ],
+      "dependencies": [],
+      "has_readme": true,
+      "has_tests": false,
+      "files": [
+        "/home/ubuntu/paystacog/integrations/PaystackOSS/sample-subscription-backend/package.json"
+      ],
+      "source": "PaystackOSS"
+    }
+  ]
+}

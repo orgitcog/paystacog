@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "The Daily Savings Plan",
+    "image": "https://images.pexels.com/photos/1018136/pexels-photo-1018136.jpeg?cs=srgb&dl=books-collections-data-desk-1018136.jpg&fm=jpg",
+    "description": "Join our daily savings plans and begin to reach your financial indpendence.",
+    "price": 2,
+    "period": "Daily"
+  }
+]

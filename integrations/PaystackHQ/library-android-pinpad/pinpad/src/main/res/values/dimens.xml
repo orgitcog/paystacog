@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="pstck_pinpad__default_prompt_padding">24dp</dimen>
+    <dimen name="pstck_pinpad__default_prompt_paddingTop">16dp</dimen>
+    <dimen name="pstck_pinpad__default_prompt_paddingBottom">16dp</dimen>
+    <dimen name="pstck_pinpad__default_indicator_height">64dp</dimen>
+</resources>

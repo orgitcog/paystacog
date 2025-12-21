@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sample Android Webview</string>
+    <string name="make_payment">Make Payment</string>
+</resources>

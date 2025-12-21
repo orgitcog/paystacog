@@ -1,0 +1,18 @@
+PODS:
+  - Paystack (3.0.17):
+    - Paystack/Core (= 3.0.17)
+  - Paystack/Core (3.0.17)
+
+DEPENDENCIES:
+  - Paystack (~> 3.0.16)
+
+SPEC REPOS:
+  trunk:
+    - Paystack
+
+SPEC CHECKSUMS:
+  Paystack: 5a7a9d5c47ddfd76e3d84550d9ff1f49bf6d284c
+
+PODFILE CHECKSUM: eae972148e344c4b29859aa31603644dc236e0a3
+
+COCOAPODS: 1.10.0

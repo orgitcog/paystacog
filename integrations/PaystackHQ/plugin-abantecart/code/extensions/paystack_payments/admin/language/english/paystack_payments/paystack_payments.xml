@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<definitions>
+    <definition>
+        <key>paystack_payments_name</key>
+        <value><![CDATA[Paystack]]></value>
+    </definition>
+    <definition>
+        <key>paystack_payments_note</key>
+        <value><![CDATA[Make sure you have all the API keys correctly, for the plugin to work]]></value>
+    </definition>
+    <definition>
+        <key>paystack_sandbox</key>
+        <value><![CDATA[Mode :]]></value>
+    </definition>
+    <definition>
+        <key>paystack_sandbox_test</key>
+        <value><![CDATA[Test]]></value>
+    </definition>
+    <definition>
+        <key>paystack_sandbox_live</key>
+        <value><![CDATA[Live]]></value>
+    </definition>
+    <definition>
+        <key>paystack_apimode_0</key>
+        <value><![CDATA[Disable]]></value>
+    </definition>
+    <definition>
+        <key>paystack_tsk</key>
+        <value><![CDATA[Test Secret Key:]]></value>
+    </definition>
+    <definition>
+        <key>paystack_tpk</key>
+        <value><![CDATA[Test Public Key:]]></value>
+    </definition>
+    <definition>
+        <key>paystack_lsk</key>
+        <value><![CDATA[Live Secret Key:]]></value>
+    </definition>
+    <definition>
+        <key>paystack_lpk</key>
+        <value><![CDATA[Live Public Key:]]></value>
+    </definition>
+    <definition>
+        <key>paystack_order_status_id</key>
+        <value><![CDATA[Order Status on Successful Payment:]]></value>
+    </definition>
+    <definition>
+        <key>paystack_order_status_id_1</key>
+        <value><![CDATA[Pending]]></value>
+    </definition>
+    <definition>
+        <key>paystack_order_status_id_2</key>
+        <value><![CDATA[Processing]]></value>
+    </definition>
+    <definition>
+        <key>paystack_order_status_id_5</key>
+        <value><![CDATA[Complete]]></value>
+    </definition>
+</definitions>

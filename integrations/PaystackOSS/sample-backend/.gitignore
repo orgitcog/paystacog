@@ -1,0 +1,8 @@
+*.env
+
+#node
+node/node_modules/
+node/package-lock.json
+
+# Mac files
+.DS_Store

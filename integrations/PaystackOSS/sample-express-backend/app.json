@@ -1,0 +1,12 @@
+{
+    "name": "Sample Express Backend",
+    "description": "Simple Express server for creating transactions with Paystack",
+    "repository": "https://github.com/paystackoss/sample-express-backend",
+    "keywords": ["ios", "android", "node", "express", "paystack"],
+    "env": {
+      "PAYSTACK_SECRET_KEY": {
+        "description": "Find this at https://dashboard.paystack.com/#/settings/developers",
+        "required": true
+      }
+    }
+  }

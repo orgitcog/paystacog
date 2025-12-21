@@ -1,0 +1,28 @@
+version: '3.7'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: mysql
+    env_file: local.env
+    restart: always
+    volumes:
+      - mysql_data:/var/lib/mysql
+    
+  opencart:
+    image: paystack-open-cart
+    build: .
+    container_name: opencart
+    hostname: opencart
+    restart: always
+    ports:
+      - '8000:80'
+    volumes:
+      - opencart_html:/var/www
+    depends_on:
+      - mysql
+volumes:
+  mysql_data:
+    driver: local
+  opencart_html:
+    driver: local

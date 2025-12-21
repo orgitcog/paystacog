@@ -1,0 +1,26 @@
+{
+  "name": "sample-subscription-backend",
+  "type": "module",
+  "scripts": {
+    "db:apply": "NODE_OPTIONS='--import tsx' drizzle-kit push",
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "@hono/zod-validator": "^0.7.3",
+    "@libsql/client": "^0.15.15",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.6",
+    "hono": "^4.9.9",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "drizzle-kit": "^0.31.5",
+    "drizzle-seed": "^0.3.1",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}

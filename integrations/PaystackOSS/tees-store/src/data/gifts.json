@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Black medium T-shirt",
+    "image": "https://images.pexels.com/photos/2205839/pexels-photo-2205839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    "size": 3,
+    "color": "Black",
+    "price": 1.99,
+    "quantity": 0
+  },
+  {
+    "id": 2,
+    "name": "Blue plain T-shirt small",
+    "image": "https://images.pexels.com/photos/428311/pexels-photo-428311.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "size": 2,
+    "color": "Blue",
+    "price": 3.0,
+    "quantity": 0
+  },
+  {
+    "id": 3,
+    "name": "White T-shirt large",
+    "image": "https://images.pexels.com/photos/4066288/pexels-photo-4066288.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "size": 6,
+    "color": "White",
+    "price": 2.0,
+    "quantity": 0
+  },
+  {
+    "id": 4,
+    "name": "Ladies T-shirt small",
+    "image": "https://images.pexels.com/photos/3756767/pexels-photo-3756767.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    "size": 3,
+    "color": "Red",
+    "price": 2.99,
+    "quantity": 0
+  }
+]

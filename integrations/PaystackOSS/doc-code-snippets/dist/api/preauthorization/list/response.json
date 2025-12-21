@@ -1,0 +1,109 @@
+{
+    "200": {
+        "description": "200 OK",
+        "data": {
+            "status": true,
+            "message": "Preauthorizations retrieved",
+            "data": [
+                {
+                    "domain": "test",
+                    "status": "failed",
+                    "reference": "ctbaq5z6fkzsk2f",
+                    "amount": 1200,
+                    "created_at": "2023-08-21T06:30:31.000Z",
+                    "transaction_id": null,
+                    "captured_at": null,
+                    "released_at": null,
+                    "currency": "ZAR",
+                    "fees": 0,
+                    "customer": {
+                        "id": 180063193,
+                        "first_name": null,
+                        "last_name": null,
+                        "email": "test@example.com",
+                        "customer_code": "CUS_zi5os4fs31qxao0",
+                        "phone": null,
+                        "metadata": null,
+                        "risk_action": "default",
+                        "international_format_phone": null
+                    },
+                    "id": 10321309
+                },
+                {
+                    "domain": "test",
+                    "status": "captured",
+                    "reference": "adoiasdiruvme",
+                    "amount": 500,
+                    "created_at": "2025-01-08T10:51:24.000Z",
+                    "transaction_id": 4563444462,
+                    "captured_at": "2025-01-08T10:53:31.000Z",
+                    "released_at": null,
+                    "currency": "ZAR",
+                    "fees": 115,
+                    "customer": {
+                        "id": 226230427,
+                        "first_name": null,
+                        "last_name": null,
+                        "email": "chonky@example.com",
+                        "customer_code": "CUS_6bklfq9zapdbdpp",
+                        "phone": null,
+                        "metadata": null,
+                        "risk_action": "default",
+                        "international_format_phone": null
+                    },
+                    "id": 153028
+                },
+                {
+                    "domain": "test",
+                    "status": "released",
+                    "reference": "abcoeii-123adoi",
+                    "amount": 8888,
+                    "created_at": "2025-01-08T12:48:02.000Z",
+                    "transaction_id": null,
+                    "captured_at": null,
+                    "released_at": "2025-01-08T13:21:35.000Z",
+                    "currency": "ZAR",
+                    "fees": 115,
+                    "customer": {
+                        "id": 226271601,
+                        "first_name": null,
+                        "last_name": null,
+                        "email": "test@example.com",
+                        "customer_code": "CUS_l3hkvdfhxaxdad",
+                        "phone": null,
+                        "metadata": null,
+                        "risk_action": "default",
+                        "international_format_phone": null
+                    },
+                    "id": 53041032
+                }
+            ],
+            "meta": {
+                "total": 1,
+                "skipped": 0,
+                "perPage": 50,
+                "page": 1,
+                "pageCount": 1
+            }
+        }
+    },
+    "500": {
+        "description": "500 Error",
+        "data": {
+            "status": false,
+            "message": "An error occurred"
+        }
+    },
+    "404": {
+        "description": "404 Not Found",
+        "data": {
+            "status": false,
+            "message": "No preauthorized transaction exists for the reference provided",
+            "meta": {
+                "nextStep": "Try again later"
+            },
+            "type": "api_error",
+            "code": "unknown"
+        }
+    }
+}

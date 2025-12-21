@@ -1,0 +1,48 @@
+{
+    "name": "paystackhq/omnipay-paystack",
+    "description": "The Paystack gateway for Omnipay",
+    "keywords": [
+        "omnipay",
+        "paystack"
+    ],
+    "homepage": "https://github.com/paystackhq/omnipay-paystack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paystack Integrations",
+            "email": "support@paystack.com",
+            "homepage": "https://www.paystack.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "omnipay/common": "^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "~3.0",
+        "squizlabs/php_codesniffer": "^3",
+        "phpro/grumphp": "^0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnipay\\Paystack\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnipay\\Paystack\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 src/",
+        "fix-style": "phpcbf -p --standard=PSR2 src/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

@@ -1,0 +1,26 @@
+{
+	"200": {
+		"description": "200 Ok",
+		"data": {
+			"status": true,
+			"message": "Authorization retrieved successfully",
+			"data": {
+				"authorization_code": "AUTH_JV4T9Wawdj",
+				"channel": "direct_debit",
+				"bank": "Guaranty Trust Bank",
+				"active": true,
+				"customer": {
+					"code": "CUS_24lze1c8i2zl76y",
+					"email": "ravi@demo.com"
+				}
+			}
+		}
+	},
+	"404": {
+		"description": "404 Not Found",
+		"data": {
+			"status": false,
+			"message": "Authorization does not exist or does not belong to integration"
+		}
+	}
+}

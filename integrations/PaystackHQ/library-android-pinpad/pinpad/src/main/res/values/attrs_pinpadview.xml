@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="PinPadView">
+        <!-- Randomly place numbers on pad? -->
+        <attr name="place_digits_randomly" format="boolean" />
+        <!-- Submit once the PIN is complete? -->
+        <attr name="auto_submit" format="boolean" />
+        <attr name="vibrate_on_incomplete_submit" format="boolean"/>
+        <attr name="pin_indicator_filled_color" format="color" />
+        <attr name="pin_indicator_empty_color" format="color" />
+        <attr name="pin_indicator_size" format="dimension" />
+        <attr name="pin_indicator_stroke_width" format="dimension" />
+        <attr name="pin_indicator_spacing" format="dimension" />
+        <attr name="pin_length" format="integer" />
+        <attr name="prompt_text" format="string" />
+        <attr name="prompt_textcolor" format="color"/>
+        <attr name="prompt_textsize" format="dimension" />
+        <attr name="prompt_text_padding" format="dimension" />
+        <attr name="prompt_text_paddingTop" format="dimension" />
+        <attr name="prompt_text_paddingBottom" format="dimension" />
+        <attr name="button_textcolor" format="color"/>
+        <attr name="button_numeric_textsize" format="dimension" />
+        <!-- Set Alphabet TextSize to zero if you don't want them to show -->
+        <attr name="button_alpha_textsize" format="dimension" />
+        <attr name="button_text_numeric" format="string" />
+        <attr name="button_text_alpha" format="string" />
+        <attr name="button_drawable" format="reference" />
+        <attr name="button_drawable_size" format="dimension" />
+    </declare-styleable>
+</resources>

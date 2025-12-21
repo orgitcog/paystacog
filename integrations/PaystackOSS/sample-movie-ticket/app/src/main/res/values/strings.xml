@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Sample Movie Ticket</string>
+    <string name="lorem">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vestibulum molestie congue.
+        Quisque non ultrices orci. Proin cursus libero nec pulvinar ullamcorper. Vestibulum gravida,
+        felis id facilisis imperdiet, tellus ex fringilla orci, quis dictum lectus dolor sed quam.
+        Proin id placerat lectus. Praesent sollicitudin turpis at laoreet finibus. Nullam luctus, nisl ac
+        consectetur faucibus, leo leo cursus nulla, a commodo mauris odio nec ex.
+    </string>
+    <string name="buy_ticket">Buy Ticket</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="card_number">Card Number</string>
+    <string name="dummy_card">0000 0000 0000</string>
+    <string name="card_expiry">Card Expiry</string>
+    <string name="card_cvv">CVV</string>
+    <string name="payment_prompt">Enter your card details to complete the payment</string>
+    <string name="make_payment">Make Payment</string>
+    <string name="payment_successful">Payment Successful!</string>
+    <string name="payment_successful_icon">Payment Successful Icon</string>
+    <string name="continue_prompt">Continue</string>
+</resources>
+

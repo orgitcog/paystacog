@@ -1,0 +1,34 @@
+{
+  "status": true,
+  "message": "Verify Access Code",
+  "data": {
+    "email": "test@email.com",
+    "amount": 10000,
+    "reference": "203520101",
+    "access_code": "Access_Code_Test",
+    "merchant_logo": "test_url.com",
+    "merchant_name": "Test Merchant",
+    "domain": "test",
+    "currency": "NGN",
+    "public_encryption_key": "test_encryption_key",
+    "channels": [
+      "card",
+      "qr",
+      "ussd",
+      "eft"
+    ],
+    "channel_options": {
+      "qr": [
+        "visa"
+      ],
+      "ussd": [
+        "737",
+        "822",
+        "919",
+        "966_GBPAY",
+        "919_GH",
+        "mcash"
+      ]
+    }
+  }
+}

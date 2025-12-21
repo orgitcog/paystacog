@@ -1,0 +1,39 @@
+{
+  "status": true,
+  "message": "Charge attempted",
+  "data": {
+    "domain": "test",
+    "status": "success",
+    "reference": "36xz3b9rie9ppvz",
+    "amount": 10000,
+    "message": "madePayment",
+    "transaction_date": "2019-10-09T13:03:28.000Z",
+    "gateway_response": "Approved",
+    "channel": "card",
+    "currency": "NGN",
+    "fees": 50,
+    "authorization": {
+      "authorization_code": "AUTH_nrp5ly1goc",
+      "bin": "000XXX",
+      "last4": "X000",
+      "exp_month": "12",
+      "exp_year": "9999",
+      "channel": "bank",
+      "card_type": "",
+      "bank": "Zenith Bank",
+      "country_code": "NG",
+      "brand": "Zenith Emandate",
+      "reusable": true,
+      "signature": "",
+      "account_name": ""
+    },
+    "customer": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "email": "charge@email.com",
+      "customer_code": "CUS_cm4hqzmhg0u0ded",
+      "phone": "+27123456789",
+      "risk_action": "default"
+    }
+  }
+}

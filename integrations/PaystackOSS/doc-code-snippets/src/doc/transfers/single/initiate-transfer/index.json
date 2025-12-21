@@ -1,0 +1,26 @@
+{
+  "status": true,
+  "message": "Transfer has been queued",
+  "data": {
+    "transfersessionid": [],
+    "transfertrials": [],
+    "domain": "test",
+    "amount": 100000,
+    "currency": "NGN",
+    "reference": "acv_9ee55786-2323-4760-98e2-6380c9cb3f68",
+    "source": "balance",
+    "source_details": null,
+    "reason": "Bonus for the week",
+    "status": "success",
+    "failures": null,
+    "transfer_code": "TRF_v5tip3zx8nna9o78",
+    "titan_code": null,
+    "transferred_at": null,
+    "id": 860703114,
+    "integration": 463433,
+    "request": 1068439313,
+    "recipient": 56824902,
+    "createdAt": "2025-08-04T10:32:40.000Z",
+    "updatedAt": "2025-08-04T10:32:40.000Z"
+  }
+}

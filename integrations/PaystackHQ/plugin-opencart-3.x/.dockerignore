@@ -1,0 +1,8 @@
+.gitignore
+docker-compose.yml
+Dockerfile
+local.env
+README.md
+LICENSE
+CONTRIBUTING.md
+local.env.sample

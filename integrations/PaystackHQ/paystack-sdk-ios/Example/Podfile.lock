@@ -1,0 +1,37 @@
+PODS:
+  - NWWebSocket (0.5.2)
+  - PaystackCore (0.1.0):
+    - PusherSwift (~> 10.1.0)
+  - PaystackUI (0.1.0):
+    - PaystackCore
+  - PusherSwift (10.1.2):
+    - NWWebSocket (~> 0.5.2)
+    - TweetNacl (~> 1.0.0)
+  - TweetNacl (1.0.2)
+
+DEPENDENCIES:
+  - PaystackCore (from `../`)
+  - PaystackUI (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - NWWebSocket
+    - PusherSwift
+    - TweetNacl
+
+EXTERNAL SOURCES:
+  PaystackCore:
+    :path: "../"
+  PaystackUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NWWebSocket: 21f0c73639815da3272862c912275b26102aa80c
+  PaystackCore: 42c546fbb782f1254db733ac05a2df298bf09b0c
+  PaystackUI: 949452b1a9b4825a19e64de8ad9e283e8ccc3873
+  PusherSwift: fb30ba1dcbe09a6ca257ccb39dc2f84866e811b4
+  TweetNacl: 3abf4d1d2082b0114e7a67410e300892448951e6
+
+PODFILE CHECKSUM: b54fdf55a0051a16e75a4e0e52ebaa1f84dbf923
+
+COCOAPODS: 1.11.3
